@@ -35,7 +35,7 @@ fun CalcButton(modifier: Modifier = Modifier,
 @Preview(showBackground = true)
 @Composable
 fun CalcButtonPreview(){
-    CalculatorTheme() {
+    CalculatorTheme {
         CalcButton(
             label = "0"
         ){ }

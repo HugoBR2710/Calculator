@@ -25,8 +25,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                    CalculatorView(modifier = Modifier
                        .fillMaxSize()
-                       .padding(innerPadding)
-                       .wrapContentSize(Alignment.Center))
+                       .padding(innerPadding))
                 }
             }
         }
